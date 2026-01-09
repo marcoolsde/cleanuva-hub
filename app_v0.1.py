@@ -63,7 +63,6 @@ df_our, df_comp, df_sce, df_dev, df_base, df_sku, df_settings, df_shipping = loa
 # --- 侧边栏 Logo (白字透明图专用版) ---
 with st.sidebar:
     try:
-        # 将 use_container_width=True 替换为 width='stretch'
         st.image("logo_w.png", width='stretch')
         st.markdown("<br>", unsafe_allow_html=True)
     except:
